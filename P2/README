@@ -1,0 +1,29 @@
+Instructions to run:
+
+Please find thread_test.c file inside <zipname> folder
+
+Compile by using the following command
+
+gcc thread_test.c
+
+Run using the following command
+
+./a.out
+
+
+Eg: ./a.out
+
+runs with 5 children
+
+
+Output Sample 1 - default:
+...........................................
+...........................................
+Func 1 Thread ID 1 , Local 1127 Global 3379
+Func 2 Thread ID 2 , Local 1127 Global 3380
+Func 3 Thread ID 3 , Local 1127 Global 3381
+Func 1 Thread ID 1 , Local 1128 Global 3382
+Func 2 Thread ID 2 , Local 1128 Global 3383
+Func 3 Thread ID 3 , Local 1128 Global 3384
+...........................................
+...........................................

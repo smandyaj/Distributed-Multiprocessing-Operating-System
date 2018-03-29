@@ -1,0 +1,54 @@
+Instructions to run:
+
+Please find proj-1.c file inside P1 folder
+
+Compile by using the following command
+
+gcc -pthread proj-1.c
+
+Run using the following command
+
+./a.out
+
+
+Extra: Input the number of children in argument
+
+Eg: ./a.out 5
+
+runs with 5 children
+
+
+Output Sample 1 - default:
+
+./a.out
+
+In main: creating thread
+In main: creating thread
+In main: creating thread
+
+Thread - Parent:	 1 1 1
+Thread - Parent:	 2 2 2
+Thread - Parent:	 3 3 3
+Thread - Parent:	 4 4 4
+Thread - Parent:	 5 5 5
+
+
+Output sample 2: with n children
+
+./a.out 5
+
+In main: creating thread
+In main: creating thread
+In main: creating thread
+In main: creating thread
+In main: creating thread
+
+Thread - Parent:	 1 1 1 1 1
+Thread - Parent:	 2 2 2 2 2
+Thread - Parent:	 3 3 3 3 3
+Thread - Parent:	 4 4 4 4 4
+Thread - Parent:	 5 5 5 5 5
+
+
+
+
